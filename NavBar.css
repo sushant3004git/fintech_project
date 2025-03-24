@@ -1,0 +1,44 @@
+.navbar {
+  background: linear-gradient(135deg, rgb(240, 187, 120), rgb(84, 58, 20));
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #FFF0DC;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #543A14;
+}
+
+.login-btn {
+  background: transparent;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 2px solid #FFF0DC;
+}
+
+.signup-btn {
+  background: #543A14;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.signup-btn:hover {
+  background: #2B1B0F;
+}
