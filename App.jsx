@@ -7,8 +7,7 @@ import Payments from "./pages/Payments";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import "./styles.css";  // Keep global styles
-
+import "./styles.css";  
 function App() {
   return (
     <Router>

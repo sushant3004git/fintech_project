@@ -1,0 +1,93 @@
+/* Home.css - ExpressPay Stylish & Modern Homepage */
+
+.home-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(135deg, #FFF0DC, #F0BB78);
+  padding: 50px 20px;
+}
+
+.hero-section {
+  max-width: 900px;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #543A14;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: #543A14;
+  margin-bottom: 1.5rem;
+}
+
+.get-started-btn {
+  background: linear-gradient(135deg, #543A14, #F0BB78);
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background: linear-gradient(135deg, #F0BB78, #543A14);
+}
+
+.features-section {
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature-card {
+  width: 250px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #543A14;
+  margin-bottom: 10px;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: #F0BB78;
+  margin-bottom: 10px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

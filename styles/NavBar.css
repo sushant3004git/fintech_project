@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: linear-gradient(to right, #543A14, #131010);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #F0BB78; /* Brand name color */
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #FFD9A0; /* Softer color for link text */
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #FFF0DC;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #F0BB78;
+  color: #131010;
+}
+
+.signup-btn {
+  background-color: #FFF0DC;
+  color: #543A14;
+}
+
+.signup-btn:hover,
+.login-btn:hover {
+  opacity: 0.8;
+}

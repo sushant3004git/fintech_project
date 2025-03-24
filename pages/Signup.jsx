@@ -1,17 +1,20 @@
 import React from "react";
-import "./Signup.css";
+import { Link } from "react-router-dom";
+import "../styles/Auth.css";
 
 const Signup = () => {
   return (
-    <div className="signup-container">
-      <h2>Sign Up for NeoPay</h2>
-      <form>
-        <input type="text" placeholder="Enter your name" required />
-        <input type="email" placeholder="Enter your email" required />
-        <input type="password" placeholder="Create a password" required />
-        <button type="submit">Sign Up</button>
-      </form>
-      <p>Already have an account? <a href="/login">Login</a></p>
+    <div className="auth-container">
+      <div className="auth-box">
+        <h2 className="auth-title">Create an ExpressPay Account</h2>
+        <form className="auth-form">
+          <input type="text" placeholder="Full Name" className="auth-input" required />
+          <input type="email" placeholder="Email" className="auth-input" required />
+          <input type="password" placeholder="Password" className="auth-input" required />
+          <button type="submit" className="auth-button">Sign Up</button>
+        </form>
+        <p className="auth-footer">Already have an account? <Link to="/login">Login</Link></p>
+      </div>
     </div>
   );
 };
